@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form dir="rtl" style="font-family: IRANYekan">
+      <fieldset>
+        <legend align="center">فرم استعلام قیمت طراحی سایت</legend>
+        <br /><br />
+        <form>
+          <label for="">*نام:</label>
+          <input
+            type="text"
+            placeholder="نام خود را وارد کنید"
+            name="FirstName"
+            required
+          />
+          <br /><br />
+          <label for="">* نام خانوادگی:</label>
+          <input
+            type="text"
+            placeholder="نام خانوادگی خود را وارد کنید"
+            name="LastName"
+            required
+          />
+          <br /><br />
+          <label for="">*پست الکترونیک:</label>
+          <input
+            type="email"
+            placeholder="پست الکترونیک خود را وارد کنید"
+            name="Email"
+            required
+          />
+          <br /><br />
+          <label for="tel">*شماره همراه:</label>
+          <input
+            id="tel"
+            type="tel"
+            placeholder="شماره همراه خود را وارد کنید"
+            name="PhoneNumber"
+            required
+          />
+          <br /><br />
+          <label for="">*شماره ثابت:</label>
+          <input
+            type="tel"
+            placeholder="شماره ثابت خود را وارد کنید"
+            name="HomeNumber"
+            required
+          />
+          <br /><br />
+          <label for="">تم رنگی:</label>
+          <input type="color" />
+          <br /><br />
+          <label>بودجه ساخت وبسایت</label>
+          <br />
+          <label for="">1 تا 10 میلیون</label>
+          <input type="radio" name="money" />
+          <label for="">10 تا 15 میلیون</label>
+          <input type="radio" name="money" />
+          <label for="">15 تا 20 میلیون</label>
+          <input type="radio" name="money" checked />
+          <br /><br />
+          <label for="">نوع سایت </label>
+          <select required>
+            <option value="">فروشگاهی</option>
+            <option value="">شخصی</option>
+            <option value="">شرکتی</option>
+            <option value="">خدماتی</option>
+            <option value="">سازمانی</option>
+          </select>
+          <br />
+          <label for="">خدمات اضافه:</label>
+          <br />
+          <label for="">سئو</label>
+          <input type="checkbox" />
+          <br />
+          <label for="">رسپانسیو سازی</label>
+          <input type="checkbox" />
+          <br />
+          <label for="">تبلیغات گوگل</label>
+          <input type="checkbox" />
+          <br /><br />
+          <label for="">زمان مطلوب برای تحویل پروژه:</label>
+          <br />
+          <input type="range" />
+          <br />
+          <label for="" style="font-size: 25px">10 </label>
+          <label for="" style="font-size: 25px">20 </label>
+          <label for="" style="font-size: 25px">30 </label>
+          <label for="" style="font-size: 25px">40 </label>
+          <br /><br />
+          <textarea name="" id="" placeholder="توضیحات...."></textarea>
+          <br />
+          <input type="submit" name="" id="" value="تایید" />
+          <input type="reset" value="پاک کردن اطلاعات" />
+        </form>
+      </fieldset>
+    </form>
+  </body>
+</html>
