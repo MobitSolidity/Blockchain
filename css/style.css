@@ -1,4 +1,7 @@
 p{
-    color: cyan;
+    color: #ffff;
     font-family: IranNastaliq;
+}
+body{
+    background-color: #FFEB3B;
 }
