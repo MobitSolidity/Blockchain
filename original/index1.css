@@ -1,0 +1,22 @@
+/*comment*/
+span{
+    font-size: 20px;
+    transition: all ease 0.5s;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: #00ffa3;
+    transition: all ease 0.5s;
+}
+div:hover span{
+    font-size: 50px;
+    color: #fff;
+}
+div:hover{
+    width: 400px;
+    height: 400px;
+    background-color: #00ff00;
+}
+
+

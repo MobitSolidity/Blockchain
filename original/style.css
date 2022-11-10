@@ -1,0 +1,23 @@
+body{
+  background-image: url(bugatti.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.div1{
+  width: 300px;
+  height: 200px;
+}
+p{
+  color: #fff;
+  font-size: 30px;
+  text-shadow: 1px 1px #000;
+
+}
+.fl::first-letter {
+    font-size: 50px;
+    color:
+}
+.pic1{
+  color: yellow;
+}
